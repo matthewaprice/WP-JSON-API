@@ -33,10 +33,10 @@ class WP_JSON_API_Admin {
 		<div class="wrap">
 			<h2>WP JSON API Help</h2>
 			<p>
-				This API allows you to retrieve Post and User data as a json object from your WordPress Installation.
+				This API allows you to retrieve Post data as a json object from your WordPress Installation.
 			</p>
 			<p>
-				The objects come back with the keys 'post|postmeta' or 'user/usermeta' for each object in the array.
+				The objects come back with the keys 'post|postmeta' for each object in the array.
 			<style type="text/css">
 				.form-table td,
 				.form-table th { 
@@ -99,7 +99,7 @@ class WP_JSON_API_Admin {
 				</li>
 				<li>
 					<strong>wpj_data_type</strong><br>
-					This is either 'post' or 'user'.  This will determine what kind of data to retrieve/update.  Default = 'post'
+					This is 'post' (and coming soon 'user'). This will determine what kind of data to retrieve/update.  Default = 'post'
 				</li>
 				<li>
 					<strong>wpj_post_type</strong><br>
